@@ -2,11 +2,11 @@ public class Main{
       
     public static void main(String[] args) {
           
-        Account ak_1 = new Account(1991, 5000);
+        Account ak_1 = new Account(1991, 2022);
         int acc1Id = (int)acc1.getId();
         System.out.println(acc1Id);
          
-        Account ak_2 = new Account("sid91", 5000);
+        Account ak_2 = new Account("sid91", 2022);
         System.out.println(acc2.getId());
     
         Printer printer = new Printer();
